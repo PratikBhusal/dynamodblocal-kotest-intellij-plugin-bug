@@ -21,7 +21,7 @@ slf4j = "2.0.13"
 # Testing
 assertJ = "3.25.3"
 delta-coverage = "2.3.0"
-kotest = "5.8.1" # BOM-like
+kotest = "5.9.0" # BOM-like
 kotlinx-kover = "0.7.6"
 mockK = "1.13.10"
 
