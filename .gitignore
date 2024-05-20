@@ -577,3 +577,6 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/backup,diff,eclipse,emacs,git,gradle,groovy,java,jetbrains,jetbrains+all,jetbrains+iml,kotlin,linux,macos,netbeans,vim,visualstudiocode,windows
+
+# DynamoDB
+dynamodb-local-metadata.json

@@ -45,6 +45,11 @@ dependencies {
     implementation(libs.bundles.jvm.shared.logging.implementation)
     implementation(libs.dynamodb.enhanced.client)
 
+    // Needed for the IntelliJ build system when running singular tests.
+    // See:
+    // - https://github.com/kotest/kotest/issues/4026
+    testCompileOnly(libs.log4j.core)
+
     testImplementation(libs.bundles.aws.dynamodb.local)
     testImplementation(libs.bundles.jvm.shared.testing)
 }

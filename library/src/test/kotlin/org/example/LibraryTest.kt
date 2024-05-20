@@ -7,15 +7,17 @@ import io.kotest.matchers.booleans.shouldNotBeFalse
 class LibraryTest : FunSpec({
     val classUnderTest = Library()
 
-    test("someLibraryMethod returns true") {
-        classUnderTest
-            .someLibraryMethod()
-            .shouldBeTrue()
-    }
+    context("Sample context") {
+        test("someLibraryMethod returns true") {
+            classUnderTest
+                .someLibraryMethod()
+                .shouldBeTrue()
+        }
 
-    test("someLibraryMethod also returns true") {
-        classUnderTest
-            .someLibraryMethod()
-            .shouldNotBeFalse()
+        test("someLibraryMethod also returns true") {
+            classUnderTest
+                .someLibraryMethod()
+                .shouldNotBeFalse()
+        }
     }
 })
