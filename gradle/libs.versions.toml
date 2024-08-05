@@ -6,7 +6,7 @@ task-tree = "3.0.0"
 # AWS
 aws-sdk = "2.25.60" # BOM-like
 dynamoDBLocal = "2.4.0"
-aws-url-connection-client = "2.25.60"
+aws-url-connection-client = "2.26.29"
 
 # Kotlin
 detekt = "1.23.6"
