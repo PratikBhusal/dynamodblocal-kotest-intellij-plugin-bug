@@ -14,7 +14,7 @@ kotlin = "1.9.20" # BOM-like
 ktlint = "12.1.1"
 
 # Logging
-log4j = "2.23.1" # BOM-like
+log4j = "2.24.3" # BOM-like
 oshai-kotlin-logging =  "6.0.9"
 slf4j = "2.0.13"
 
